@@ -7,7 +7,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #000000;
-    margin: 30px;
+    margin: 10px;
 }
 .topo{
     background-color: #000000;
@@ -16,7 +16,7 @@ body{
     padding: 10px;
 }
 .topo a{
-    color: #fa0000;
+    color: #fff8e7;
     text-decoration: none;
 }
 .navegacao{
@@ -25,10 +25,160 @@ body{
 .menu{
     display: flex;
     list-style: none;
-    margin-left: auto;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
+    margin: -35px;
 }
 .menu li{
     margin-left: 15px;
+}
+.menu a:hover{
+    color: #fa0000;
+}
+.logo1 img{
+    height:50px; 
+    width:50px;
+}
+.titulo{
+    background-color: #000000;
+    color: #fff8e7;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.chamada1{
+    background-color: #000000;
+    color: #fff8e7;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    margin: 0px;
+}
+.chamada2{
+    background-color: #000000;
+    color: #fff8e7;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.chamada3{
+    background-color: #000000;
+    color: #fff8e7;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.item{
+    background-color: #000000;
+    color: #fff8e7;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    max-width: 320px;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.item img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.corpo{
+    padding: 0px;
+    margin: 0px;
+}
+.grade{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
+    gap: 50px;
+    justify-content: center;
+}
+.contato{
+    color: #fff8e7;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rotulo{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.campo{
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px rgb(0, 0, 0) solid;
+    background-color: #fff8e7;
+    border-radius: 10px;
+}
+textarea.campo{
+    height: 150px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.campo:focus{
+    background-color: #fff8e7;
+    outline: none;
+}.localidade{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+    background-color: #000000;
+    padding: 10px;
+}
+.rodape {
+    background-color:#000000;
+    color: #fff8e7;
+    padding: 10px;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.rodape li{
+    margin-right: 0px;
+}
+.copy{
+    margin-top: 0px;
+    font-size: 10px;
+}
+@media (min-width: 768px) {
+
+    .menu {
+        display: flex;
+        list-style: none;
+        margin-left: auto;
+        justify-content: flex-start;
+        padding: 50px;
+    }
+    .menu li {
+        margin-left: 15px;
+    }
+    .logo1 img {width: 100px; height: 100px;
+    }
+    .copy{
+        margin-top: 20px;
+    }
+    
 }
