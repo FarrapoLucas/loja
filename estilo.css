@@ -27,7 +27,7 @@ body{
     list-style: none;
     justify-content: flex-end;
     align-items: center;
-    margin: -35px;
+    margin: -5px;
 }
 .menu li{
     margin-left: 15px;
@@ -145,6 +145,23 @@ textarea.campo{
     background-color: #000000;
     padding: 10px;
 }
+.botao{
+    background-color: #000000;
+    color: #fff8e7;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.botao:hover{
+    color: #000000;
+    background-color: #fff8e7;
+}
 .rodape {
     background-color:#000000;
     color: #fff8e7;
@@ -170,7 +187,7 @@ textarea.campo{
         list-style: none;
         margin-left: auto;
         justify-content: flex-start;
-        padding: 50px;
+        padding: 20px;
     }
     .menu li {
         margin-left: 15px;
@@ -180,5 +197,4 @@ textarea.campo{
     .copy{
         margin-top: 20px;
     }
-    
 }
